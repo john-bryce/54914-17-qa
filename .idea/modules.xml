@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java_24_02_07/Java_24_02_07.iml" filepath="$PROJECT_DIR$/Java_24_02_07/Java_24_02_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_24_02_11_flow controll/java_24_02_11_flow controll.iml" filepath="$PROJECT_DIR$/java_24_02_11_flow controll/java_24_02_11_flow controll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project 1/project 1.iml" filepath="$PROJECT_DIR$/project 1/project 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project 2/project 2.iml" filepath="$PROJECT_DIR$/project 2/project 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/workspace.iml" filepath="$PROJECT_DIR$/.idea/workspace.iml" />
+    </modules>
+  </component>
+</project>
