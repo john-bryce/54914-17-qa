@@ -16,6 +16,5 @@ public class Targil2 {
         System.out.print(y);
         System.out.print(" = ");
         System.out.println(sum);
-        // la la la
     }
 }
