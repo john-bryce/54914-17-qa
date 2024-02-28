@@ -8,6 +8,10 @@ public class Calculator {
         result += value;
     }
 
+    public void clear(){
+        result = 0;
+    }
+
     public double getResult(){
         return result;
     }
