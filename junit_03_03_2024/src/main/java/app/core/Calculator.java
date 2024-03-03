@@ -14,7 +14,17 @@ public class Calculator {
      * @param value the value to be added to the result
      */
     public void add(double value) {
-        result += value;
+         result += value; // test pass
+//        result += value + 100; // test fail
+    }
+
+    /**
+     * subtract the value from the result
+     *
+     * @param value the value to be subtracted from the result
+     */
+    public void sub(double value) {
+         result -= value;
     }
 
     /**
