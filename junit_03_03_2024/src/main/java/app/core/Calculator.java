@@ -27,6 +27,10 @@ public class Calculator {
          result -= value;
     }
 
+    public void mul(double value){
+        result *= value;
+    }
+
     /**
      * return the current result of this calculator
      *

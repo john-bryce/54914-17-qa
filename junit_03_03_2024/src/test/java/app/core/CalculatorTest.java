@@ -16,9 +16,18 @@ public class CalculatorTest {
     }
 
     @Test
-    void subtractTest(){
+    void subtractTest() {
         calculator.sub(7); // the expected result should be -7
         double expected = -7;
+        double actual = calculator.getResult();
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    void multiplyTest() {
+        calculator.add(10); // result is now 10
+        calculator.mul(3); // result is now 30
+        double expected = 30;
         double actual = calculator.getResult();
         Assertions.assertEquals(expected, actual);
     }
