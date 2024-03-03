@@ -19,11 +19,11 @@ public class Calculator {
 
     /**
      * return the current result of this calculator
+     *
      * @return the current result
-     * */
+     */
     public double getResult() {
         return result;
     }
-
 
 }

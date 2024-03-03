@@ -9,7 +9,7 @@ public class CalculatorTest {
     Calculator calculator = new Calculator();
 
     @Test
-    void addTest(){
+    void addTest() {
         calculator.add(5);
         // test that the expected current result is 5
         Assertions.assertEquals(5, calculator.getResult());
