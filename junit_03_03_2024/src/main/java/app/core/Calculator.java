@@ -31,6 +31,14 @@ public class Calculator {
         result *= value;
     }
 
+    public void div(double value){
+        result /= value;
+    }
+
+    public void clear(){
+         result = 0;
+    }
+
     /**
      * return the current result of this calculator
      *
