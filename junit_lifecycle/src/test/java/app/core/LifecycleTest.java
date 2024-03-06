@@ -5,6 +5,21 @@ import org.junit.jupiter.api.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class LifecycleTest {
 
+    @BeforeAll
+    static void start() {
+        System.out.println("Before All");
+    }
+
+    @AfterAll
+    static void close() {
+        System.out.println("After All");
+    }
+
+    @BeforeEach
+    void intro() {
+        System.out.println("------> starting a test");
+    }
+
     @Test
     @Order(1)
     void firstTest() {
