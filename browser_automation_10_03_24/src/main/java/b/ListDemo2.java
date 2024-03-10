@@ -21,5 +21,10 @@ public class ListDemo2 {
         list1.add("ccc");
         System.out.println(list1);
 
+        // access elements by index:
+        System.out.println(list1.get(0));
+        System.out.println(list1.get(1));
+        System.out.println(list1.get(2));
+
     }
 }

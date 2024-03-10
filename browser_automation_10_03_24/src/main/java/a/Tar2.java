@@ -22,6 +22,7 @@ public class Tar2 {
 
         // 3. get the text in the second paragraph - we have to get all p elements in the DOM
         List<WebElement> list = driver.findElements(By.tagName("p"));
+        System.out.println("number of p elements: " + list.size());
         WebElement p2 = list.get(1);
         String p2Text = p2.getText();
 
