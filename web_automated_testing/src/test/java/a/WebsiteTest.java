@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class Test1 {
+public class WebsiteTest {
     static WebDriver driver;
 
     @Order(1)
@@ -39,17 +39,17 @@ public class Test1 {
         // first name input
         WebElement inputFirstName = driver.findElement(By.id("first-name"));
         inputFirstName.sendKeys("Eldar");
-        //Thread.sleep(2000);
+        Thread.sleep(2000);
 
         // last name input
         WebElement inputLastName = driver.findElement(By.id("last-name"));
         inputLastName.sendKeys("Bakshi");
-        //Thread.sleep(2000);
+        Thread.sleep(2000);
 
         // submit
         WebElement submitElement = driver.findElement(By.id("send"));
         submitElement.click();
-        //Thread.sleep(2000);
+        Thread.sleep(2000);
 
         String currentUrl = driver.getCurrentUrl();
         System.out.println(currentUrl);
