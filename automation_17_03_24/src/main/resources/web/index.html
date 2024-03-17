@@ -9,8 +9,15 @@
 <body>
     <h1>Home Page</h1>
     <h2>Images</h2>
-    <img src="images/pineapple.jpg" alt="pineapple">
-    <img src="images/strawbery.jpg" alt="strawbery">
-    <img src="images/coconut.jpg" alt="coconut">
+    <input type="checkbox" name="" id="ch-show" onchange="imageDisplay(event)">
+    <label for="ch-show">Show Images</label>
+    
+    <div style="display: none;">
+        <img src="images/pineapple.jpg" alt="pineapple">
+        <img src="images/strawbery.jpg" alt="strawbery">
+        <img src="images/coconut.jpg" alt="coconut">
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
